@@ -1,0 +1,48 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+
+/* Add your custom styles here... */
+/*body{
+  background-color: #1b1250 !important;
+}*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #00264d !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:  #00264d !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:  #00264d !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color:  #00264d !important;
+}
+
+@media (max-width: 768px){
+	body {
+		word-wrap: break-word;
+	}
+	.fl-builder-content .fl-node-595c9b0ad5fce {
+		width: 65% !important;
+	}
+	.fl-menu.fl-menu-accordion-collapse.fl-menu-responsive-toggle-mobile {
+			position: relative;
+	    top: -103px;
+		}
+	.fl-builder-content .fl-node-595c9b0ad6048 {
+		width: 100% !important;
+	}
+	ul#menu-header-menu {
+		margin-top: 35px;
+	}
+	.fl-node-59561392764e7 > .fl-row-content-wrap {
+		background-position: 12% center;
+	}
+}
